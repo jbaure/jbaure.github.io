@@ -8,10 +8,10 @@
 
             // Call this whenever information about your visitors becomes available
             // Please use Strings, Numbers, or Bools for value types.
-       	pendo.initialize({
+      pendo.initialize({
 	events: {
 	    guidesLoaded: function() {
-	    	pendo.showGuideById("HIbk4OXqrt9lV53P5gZGBglSW9s")
+	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
 	    }
 	}
 })
