@@ -7,8 +7,8 @@
             z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
 
             // Call this whenever information about your visitors becomes available
-            // Please use Strings, Numbers, or Bools for value types.
-      pendo.initialize({
+            // Please use Strings, Numbers, or Bools for value types.	    
+pendo.initialize({
 	events: {
 	    guidesLoaded: function() {
 	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
