@@ -38,4 +38,9 @@
                 }
             });
     })('ea407a72-a094-421f-4ff9-6cb1fc1fd8cc');
+events: {
+	    guidesLoaded: function() {
+	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
+	    }
+	}
 })
