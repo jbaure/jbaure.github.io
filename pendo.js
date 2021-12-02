@@ -9,7 +9,12 @@
             // Call this whenever information about your visitors becomes available
             // Please use Strings, Numbers, or Bools for value types.
             pendo.initialize({
-                visitor: {
+	events: {
+	    guidesLoaded: function() {
+	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
+	    }
+	}
+             visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
                     // full_name:    // Recommended if using Pendo Feedback
@@ -33,4 +38,4 @@
                 }
             });
     })('ea407a72-a094-421f-4ff9-6cb1fc1fd8cc');
-
+})
