@@ -14,7 +14,6 @@ pendo.initialize({
 	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
 	    }
 	}
-
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
