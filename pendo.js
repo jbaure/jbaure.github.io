@@ -9,11 +9,11 @@
             // Call this whenever information about your visitors becomes available
             // Please use Strings, Numbers, or Bools for value types.
             pendo.initialize({
-                events: {
+          		events: {
                     guidesLoaded: function() {
                         pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
                     }
-                {,
+				},
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
