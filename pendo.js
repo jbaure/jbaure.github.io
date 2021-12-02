@@ -7,13 +7,8 @@
             z=e.getElementsByTagName(n)[0];z.parentNode.insertBefore(y,z);})(window,document,'script','pendo');
 
             // Call this whenever information about your visitors becomes available
-            // Please use Strings, Numbers, or Bools for value types.	    
-pendo.initialize({
-	events: {
-	    guidesLoaded: function() {
-	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
-	    }
-	}
+            // Please use Strings, Numbers, or Bools for value types.
+            pendo.initialize({
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
@@ -36,5 +31,6 @@ pendo.initialize({
                     // You can add any additional account level key-values here,
                     // as long as it's not one of the above reserved names.
                 }
-    ('ea407a72-a094-421f-4ff9-6cb1fc1fd8cc');
-})
+            });
+    })('ea407a72-a094-421f-4ff9-6cb1fc1fd8cc');
+
