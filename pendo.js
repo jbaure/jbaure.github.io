@@ -14,7 +14,7 @@ pendo.initialize({
 	    	pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
 	    }
 	}
-})
+
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
@@ -39,4 +39,4 @@ pendo.initialize({
                 }
             });
     })('ea407a72-a094-421f-4ff9-6cb1fc1fd8cc');
-
+})
