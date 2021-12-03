@@ -11,7 +11,7 @@
             pendo.initialize({
           		events: {
                     guidesLoaded: function() {
-                        pendo.showGuideById('HIbk4OXqrt9lV53P5gZGBglSW9s')
+                        pendo.showGuideById('KLCQYy4dBhrXRaWiz-vVqN0VxeM')
                     }
 		},
                 visitor: {
