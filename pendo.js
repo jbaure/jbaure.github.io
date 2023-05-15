@@ -14,7 +14,6 @@ var transform =  { attr: 'search', action: 'AddTo', data: function() { return { 
                         pendo.showGuideById('KLCQYy4dBhrXRaWiz-vVqN0VxeM')
                     }
 		},
-
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
