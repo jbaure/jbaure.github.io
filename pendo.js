@@ -14,22 +14,9 @@ var transform =  { attr: 'search', action: 'AddTo', data: function() { return { 
                         pendo.showGuideById('KLCQYy4dBhrXRaWiz-vVqN0VxeM')
                     }
 		},
-		    location: {
-        transforms: [
-            {
-                'attr': 'pathname',
-                'action': 'Replace',
-                'data': 'pen/do'
-            }, {
-                'attr': 'hostname',
-                'action': 'Replace',
-                'data': 'newvalue'
-            }
-        ]
-    }
-});
+
                 visitor: {
-                    id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
+                    id:              '1237865'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
                     // full_name:    // Recommended if using Pendo Feedback
                     // role:         // Optional
