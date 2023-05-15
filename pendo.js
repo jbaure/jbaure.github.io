@@ -16,7 +16,7 @@ var transform =  { attr: 'search', action: 'AddTo', data: function() { return { 
 		},
 
                 visitor: {
-                    id:              '1237865'   // Required if user is logged in
+                    id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
                     // full_name:    // Recommended if using Pendo Feedback
                     // role:         // Optional
