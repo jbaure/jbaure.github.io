@@ -17,7 +17,7 @@ var transform =  { attr: 'search', action: 'AddTo', data: function() { return { 
 		    location: {
         transforms: [
             {
-                'attr': 'buttons.html',
+                'attr': 'pathname',
                 'action': 'Replace',
                 'data': 'pen/do'
             }, {
