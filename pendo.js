@@ -15,7 +15,7 @@
 		},
     location: {
         setUrl: function () { return determinePageUrl(); } // or static string or URL 
-    }
+    },
 	    });
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
