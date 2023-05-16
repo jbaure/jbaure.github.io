@@ -14,7 +14,7 @@
                     }
 		},
     location: {
-        setUrl: function ('https://jbaure.github.io/) { return determinePageUrl('https://google.com/'); } // or static string or URL 
+        setUrl: function ('https://jbaure.github.io/') { return determinePageUrl('https://google.com/'); } // or static string or URL 
     }
 });
                 visitor: {
