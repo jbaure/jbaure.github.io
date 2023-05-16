@@ -13,6 +13,10 @@
                         pendo.showGuideById('KLCQYy4dBhrXRaWiz-vVqN0VxeM')
                     }
 		},
+    location: {
+        setUrl: function () { return determinePageUrl('https://google.com'); } // or static string or URL 
+    }
+});
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
