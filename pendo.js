@@ -15,17 +15,18 @@
 		},
     location: {
         setUrl: function () { return determinePageUrl(); } // or static string or URL 
-    }
-});
+    },
+
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
-                    // email:        // Recommended if using Pendo Feedback, or NPS Email
+                    email:        // Recommended if using Pendo Feedback, or NPS Email
                     // full_name:    // Recommended if using Pendo Feedback
                     // role:         // Optional
 
                     // You can add any additional visitor level key-values here,
                     // as long as it's not one of the above reserved names.
                 },
+			
                 account: {
                     id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
                     // name:         // Optional
