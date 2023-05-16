@@ -26,7 +26,6 @@
                     // You can add any additional visitor level key-values here,
                     // as long as it's not one of the above reserved names.
                 },
-
                 account: {
                     id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
                     // name:         // Optional
