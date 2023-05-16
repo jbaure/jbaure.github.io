@@ -14,7 +14,7 @@
                     }
 		},
     location: {
-        setUrl: function () { return determinePageUrl('https://google.com/'); } // or static string or URL 
+        setUrl: function () { return determinePageUrl(); } // or static string or URL 
     }
 });
                 visitor: {
