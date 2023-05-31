@@ -25,7 +25,7 @@
                 },
 
                 account: {
-                    id:           'ACCOUNT-UNIQUE-ID' // Highly recommended
+                    id:           'Cloud Company' // Highly recommended
                     // name:         // Optional
                     // is_paying:    // Recommended if using Pendo Feedback
                     // monthly_value:// Recommended if using Pendo Feedback
