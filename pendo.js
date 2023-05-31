@@ -17,7 +17,7 @@
                 visitor: {
                     id:              'VISITOR-UNIQUE-ID'   // Required if user is logged in
                     // email:        // Recommended if using Pendo Feedback, or NPS Email
-                    first_name:	      'Jasper'// Recommended if using Pendo Feedback
+                    //first_name:	      'Jasper'// Recommended if using Pendo Feedback
                     // role:         // Optional
 
                     // You can add any additional visitor level key-values here,
